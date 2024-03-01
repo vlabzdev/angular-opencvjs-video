@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
+## Technologies Used
+
+- Angular: [Angular](https://angular.io/)
+- Angular material :[Angular material](https://material.angular.io/)
+- Opencv: [Opencv.js](https://docs.opencv.org/3.4/index.html)
+
+## Installation
+
+1. Clone the repository
+2. Navigate to the project directory: `cd video-visualization-tool`
+3. Use node version 18
+3. Install the dependencies: `npm install`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
