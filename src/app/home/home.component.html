@@ -1,11 +1,11 @@
 <div class="container-div">
     <div class="video-input-div">
-        <button class="primary-color-btn" mat-raised-button color="primary" (click)="triggerVideoUpload()">Select
+        <button class="primary-color-btn" mat-raised-button color="primary" (click)="triggerVideoUpload()">Upload
             Video</button>
         <input id="videoInput" #videoInput style="display: none;" type="file" (change)="onVideoSelected($event)" />
     </div>
     <div class="selected-video-container">
-        <video id="video" class="selected-video"  #videoPlayer (loadedmetadata)="onVideoLoad()">
+        <video id="video" class="selected-video" #videoPlayer (loadedmetadata)="onVideoLoad()">
         </video>
     </div>
     <div class="video-controls" *ngIf="showVideoControls">
@@ -13,6 +13,7 @@
             (click)="onPlayPause()">Play/Pause</button>
     </div>
     <div *ngIf="true" class="canvas-div">
-        <canvas id="canvas"  (mousedown)="onMouseDown($event)" (mousemove)="onMouseMove($event)" (mouseup)="onMouseUp()"></canvas>
+        <canvas id="canvas" (mousedown)="onMouseDown($event)" (mousemove)="onMouseMove($event)"
+            (mouseup)="onMouseUp()"></canvas>
     </div>
 </div>

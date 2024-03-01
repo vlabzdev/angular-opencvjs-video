@@ -1,40 +1,38 @@
-/* app.component.css */
-.container-div{
+.container-div {
     padding: 3rem 6rem;
-    .primary-color-btn{
+
+    .primary-color-btn {
         background-color: rgb(186, 83, 9) !important;
         color: white !important;
     }
-    .video-input-div{
+
+    .video-input-div {
+        display: flex;
+        gap: 10px;
     }
-    .selected-video-container{
-        // height: 30rem;
+
+    .selected-video-container {
         margin: 10px 0px;
         border: 3px solid rgba(211, 195, 181, 0.13);
         border-radius: 0.25rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 50rem;
-        .selected-video{
-            // width: 100%;
+
+        .selected-video {
+            width: auto;
             height: auto;
-            // margin: 10px;
         }
     }
-    .video-controls{
-       .pause-resume-btn{
-        margin-top: 10px;
-       }
+
+    .video-controls {
+        .pause-resume-btn {
+            margin-top: 10px;
+        }
     }
-    .canvas-div{
+
+    .canvas-div {
         canvas {
             position: absolute;
-            top: 96px;
-            left: 338px;
-          }
+            top: 95px;
+            left: 100px;
+        }
     }
 }
-
-  
-  
